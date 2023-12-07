@@ -5,7 +5,44 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Layouts"
         mc:Ignorable="d"
-        Title="Hey ! " Height="400 " Width="1000" Background="{x:Null}" >
-    <Button Content="Button" BorderBrush="#FFC70E0E" Foreground="#FFAF2929" Background="Black" HorizontalAlignment="Center" VerticalAlignment="Center" Height="110" Width="569"/>
+        Title="Hey ! " Height="700" Width="400" Background="{x:Null}" >
+    <StackPanel>
+        <Button Name="ButtonGO" 
+        Content="GO !" 
+        BorderBrush="#FFB3F900" 
+        BorderThickness="5"
+        Foreground="Black" 
+        Background="#FF2900F1" 
+        HorizontalAlignment="Stretch" 
+        VerticalAlignment="Top" 
+        Margin="50"
+        Height="100" 
+        Width="250" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
 
+        <Button Name="ButtonSTOP" 
+        Content="STOP" 
+        BorderBrush="#FFB3F900" 
+        BorderThickness="5"
+        Foreground="Black" 
+        Background="#FF2900F1" 
+        HorizontalAlignment="Stretch" 
+        VerticalAlignment="Center" 
+        Margin="50"
+        Height="100" 
+        Width="250" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+
+        <Button Name="ButtonRESTART" 
+        Content="RESTART" 
+        BorderBrush="#FFB3F900" 
+        BorderThickness="5"
+        Foreground="Black" 
+        Background="#FF2900F1" 
+        HorizontalAlignment="Stretch" 
+        VerticalAlignment="Bottom" 
+        Margin="50"
+        Height="100" 
+        Width="250" FontWeight="Bold" FontFamily="Bahnschrift SemiBold" FontSize="36"/>
+
+    </StackPanel>
+    
 </Window>
