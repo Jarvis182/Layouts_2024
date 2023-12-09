@@ -15,11 +15,11 @@ using System.Windows.Shapes;
 namespace Layouts
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour DockPanel.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class DockPanel : Window
     {
-        public MainWindow()
+        public DockPanel()
         {
             InitializeComponent();
         }

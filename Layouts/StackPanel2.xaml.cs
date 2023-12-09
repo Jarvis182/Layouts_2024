@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Layouts
 {
     /// <summary>
-    /// Logique d'interaction pour MainWindow.xaml
+    /// Logique d'interaction pour Page1.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class StackPanel2 : Window
     {
-        public MainWindow()
+        public StackPanel2()
         {
             InitializeComponent();
         }
