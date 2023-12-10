@@ -21,7 +21,7 @@
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <Button Content="123 456 789 000" Grid.Row="0" Grid.Column="0" Background="Lime" Grid.ColumnSpan="4" Grid.RowSpan="2" FontSize="50" FontWeight="Bold"/>
+        <Button Content="123 456 789 000" Grid.Row="0" Grid.Column="0" Background="WhiteSmoke" Grid.ColumnSpan="4" Grid.RowSpan="2" FontSize="50" FontWeight="Bold"/>
         <!--NUMBERS-->
         <Button Content="7" Grid.Row="2" Grid.Column="0" Background="DimGray" FontSize="40"/>
         <Button Content="8" Grid.Row="2" Grid.Column="1" Background="DimGray" FontSize="40"/>
@@ -33,13 +33,29 @@
         <Button Content="2" Grid.Row="4" Grid.Column="1" Background="DimGray" FontSize="40"/>
         <Button Content="3" Grid.Row="4" Grid.Column="2" Background="DimGray" FontSize="40"/>
         <Button Content="0" Grid.Row="5" Grid.Column="0" Background="DimGray" FontSize="40" Grid.ColumnSpan="2"/>
-        
+
+        <Button Content="Survolez-moi">
+            <Button.Style>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="red"/>
+                    <!-- Autres propriétés de style ici -->
+
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="blue"/>
+                            <!-- Autres modifications de style pour le survol -->
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+        </Button>
+
         <!--OPERATIONS-->
         <Button Content="+" Grid.Row="2" Grid.Column="3" Background="BlueViolet" FontSize="40"/>
         <Button Content="-" Grid.Row="3" Grid.Column="3" Background="BlueViolet" FontSize="40"/>
         <Button Content="x" Grid.Row="4" Grid.Column="3" Background="BlueViolet" FontSize="40"/>
         <Button Content="/" Grid.Row="5" Grid.Column="3" Background="BlueViolet" FontSize="40"/>
-        <Button Content="=" Grid.Row="5" Grid.Column="2" Background="OrangeRed" FontSize="50" BorderBrush="Black" BorderThickness="5" FontWeight="Bold"/>
+        <Button Content="=" Grid.Row="5" Grid.Column="2" Background="Lime" FontSize="50" BorderBrush="Black" BorderThickness="5" FontWeight="Bold"/>
         
     </Grid>
 </Window>
