@@ -34,21 +34,21 @@
         <Button Content="3" Grid.Row="4" Grid.Column="2" Background="DimGray" FontSize="40"/>
         <Button Content="0" Grid.Row="5" Grid.Column="0" Background="DimGray" FontSize="40" Grid.ColumnSpan="2"/>
 
-        <Button Content="Survolez-moi">
+        <!--<Button Content="Survolez-moi">
             <Button.Style>
                 <Style TargetType="Button">
                     <Setter Property="Background" Value="red"/>
-                    <!-- Autres propriétés de style ici -->
+                    --><!-- Autres propriétés de style ici --><!--
 
                     <Style.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
                             <Setter Property="Background" Value="blue"/>
-                            <!-- Autres modifications de style pour le survol -->
+                            --><!-- Autres modifications de style pour le survol --><!--
                         </Trigger>
                     </Style.Triggers>
                 </Style>
             </Button.Style>
-        </Button>
+        </Button>-->
 
         <!--OPERATIONS-->
         <Button Content="+" Grid.Row="2" Grid.Column="3" Background="BlueViolet" FontSize="40"/>
