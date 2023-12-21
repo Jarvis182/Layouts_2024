@@ -16,6 +16,7 @@
         <Button Content="Button" Background="#FFDBEC48" BorderBrush="#FFEC0D0D" Foreground="#FF003DF9" Height="52" Width="489"/>
         <Button Content="Button" Width="343" HorizontalAlignment="Right" Height="46" Background="#FF00CC6A"/>
         <Button Content="Button"/>
-
+        
+        <!--StackPanel moche-->
     </StackPanel>
 </Window>
